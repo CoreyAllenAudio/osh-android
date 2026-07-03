@@ -25,7 +25,7 @@ subprojects {
         maven { url 'https://jitpack.io' }
     }
 
-    if (!project.projectDir.parent.endsWith('osh-android')) {
+    if (!project.projectDir.parent.endsWith('osh-android-corey')) {
         apply plugin: 'java-library'
         apply plugin: 'maven-publish'
         sourceCompatibility = JavaVersion.VERSION_17
