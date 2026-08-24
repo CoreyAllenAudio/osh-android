@@ -4,5 +4,5 @@
 	branch = master
 [submodule "include/osh-core"]
 	path = submodules/osh-core
-	url = git@github.com:kalynstricklin/osh-core.git
-	branch = update-moduleutils
+	url = https://github.com/kalynstricklin/osh-core.git
+	branch = android
